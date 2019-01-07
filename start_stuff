@@ -1,0 +1,179 @@
+Microsoft Windows [Version 10.0.17134.472]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\Users\ptudor.modetransport
+
+C:\Users\ptudor.modetransport>cd DocumentsCCC
+
+C:\Users\ptudor.modetransport>
+
+C:\Users\ptudor.modetransport>
+
+C:\Users\ptudor.modetransport>pip install pandas
+Collecting pandas
+  Downloading https://files.pythonhosted.org/packages/58/a8/03e5fe0edbc522e46cb27df2abfb4266814129253d8462f38bc704a76a2a/pandas-0.23.4-cp37-cp37m-win_amd64.whl (7.9MB)
+    100% |████████████████████████████████| 7.9MB 1.3MB/s
+Collecting python-dateutil>=2.5.0 (from pandas)
+  Downloading https://files.pythonhosted.org/packages/74/68/d87d9b36af36f44254a8d512cbfc48369103a3b9e474be9bdfe536abfc45/python_dateutil-2.7.5-py2.py3-none-any.whl (225kB)
+    100% |████████████████████████████████| 235kB 3.2MB/s
+Collecting numpy>=1.9.0 (from pandas)
+  Downloading https://files.pythonhosted.org/packages/00/0e/5a8c34adb97fc1cd6636d78050e575945e874c8516d501421d5a0f377a6c/numpy-1.15.4-cp37-none-win_amd64.whl (13.5MB)
+    100% |████████████████████████████████| 13.5MB 924kB/s
+Collecting pytz>=2011k (from pandas)
+  Downloading https://files.pythonhosted.org/packages/f8/0e/2365ddc010afb3d79147f1dd544e5ee24bf4ece58ab99b16fbb465ce6dc0/pytz-2018.7-py2.py3-none-any.whl (506kB)
+    100% |████████████████████████████████| 512kB 2.0MB/s
+Collecting six>=1.5 (from python-dateutil>=2.5.0->pandas)
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: six, python-dateutil, numpy, pytz, pandas
+Successfully installed numpy-1.15.4 pandas-0.23.4 python-dateutil-2.7.5 pytz-2018.7 six-1.12.0
+
+C:\Users\ptudor.modetransport>cd Documents
+
+C:\Users\ptudor.modetransport\Documents>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ptudor.modetransport\Documents>dir
+ Volume in drive C is Windows
+ Volume Serial Number is F634-16E0
+
+ Directory of C:\Users\ptudor.modetransport\Documents
+
+01/05/2019  08:40 PM    <DIR>          .
+01/05/2019  08:40 PM    <DIR>          ..
+01/04/2019  11:52 AM         6,714,880 Copy of email customer report 11 18.xls
+01/02/2019  09:54 AM            60,873 CRQ - Template.xlsx
+01/02/2019  09:52 AM    <DIR>          Custom Office Templates
+01/04/2019  05:16 PM         4,325,376 ETS Opportunity Log.mdb
+01/04/2019  06:18 PM        16,126,612 IBO Sign-ups - 1.4.xlsm
+01/04/2019  02:43 PM        16,117,892 IBO Sign-ups - 1.4.xlsx
+01/04/2019  06:18 PM            52,503 Master Schedule.xlsx
+01/04/2019  09:04 AM            16,764 Mode Transportation LLC_Mode Transportation LLC_18092513325833.xlsx
+12/03/2018  10:07 AM           664,576 Office Directory 10-1-18.xls
+01/02/2019  08:52 AM    <DIR>          OneNote Notebooks
+01/04/2019  09:02 AM    <DIR>          PDF Favorites
+01/05/2019  09:01 PM    <DIR>          Speed dating
+               8 File(s)     44,079,476 bytes
+               6 Dir(s)  168,778,080,256 bytes free
+
+C:\Users\ptudor.modetransport\Documents>cd "Speed dating"
+
+C:\Users\ptudor.modetransport\Documents\Speed dating>l
+'l' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ptudor.modetransport\Documents\Speed dating>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ptudor.modetransport\Documents\Speed dating>dir
+ Volume in drive C is Windows
+ Volume Serial Number is F634-16E0
+
+ Directory of C:\Users\ptudor.modetransport\Documents\Speed dating
+
+01/05/2019  09:01 PM    <DIR>          .
+01/05/2019  09:01 PM    <DIR>          ..
+01/05/2019  09:01 PM             6,406 Mastersched.csv
+01/05/2019  08:36 PM    <DIR>          speed-dating-scheduler-master
+01/05/2019  08:33 PM             3,010 speed-dating-scheduler-master.zip
+               2 File(s)          9,416 bytes
+               3 Dir(s)  168,778,014,720 bytes free
+
+C:\Users\ptudor.modetransport\Documents\Speed dating>cd speed-dating-scheduler-master
+
+C:\Users\ptudor.modetransport\Documents\Speed dating\speed-dating-scheduler-master>python scheduler.py ../Mastersched.csv
+,Am Transport,ARL Transport,Asset Based Intermodal,BNSF,Bear Cartage,Canadian National,Canadian Pacific,COFC Logistics,CSX ,CSX Door-to-Door,DDI Transportation,Dray Now,Eagle Systems,Evans Group,Fault Line Logistics,FEC Railway,FMX Inc.,General Express,Genesis Intermodal Delivery,Hudson Valley Logistics,Intermodal West,JAS,JB Hunt,Kansas City Southern,Loup Logistics,M&B Carriers,Norfolk Southern,Patriot Logistics,Redbird Carriers,Road One,Roadrunner Intermodal,Rose Transportation,TDIS,Tiger Cool Express,Thoroughbred Direct,Transnoble Logistics,Union Pacific,Universal Intermodal Services
+2019-01-05T10:00:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:00:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:00:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:00:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:15:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:15:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:15:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:15:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:30:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:30:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:30:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:30:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:45:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:45:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:45:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T10:45:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:00:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:00:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:00:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:00:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:15:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:15:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:15:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:15:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:30:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:30:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:30:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:30:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:45:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:45:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:45:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T11:45:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:00:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:00:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:00:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:00:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:15:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:15:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:15:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:15:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:30:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:30:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:30:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:30:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:45:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:45:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:45:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T12:45:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:00:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:00:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:00:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:00:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:15:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:15:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:15:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:15:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:30:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:30:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:30:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:30:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:45:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:45:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:45:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T13:45:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:00:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:00:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:00:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:00:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:15:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:15:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:15:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:15:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:30:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:30:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:30:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:30:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:45:00::1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:45:00::2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:45:00::3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-05T14:45:00::4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+C:\Users\ptudor.modetransport\Documents\Speed dating\speed-dating-scheduler-master>python scheduler.py ../Mastersched.csv > ../out.csv
+
+C:\Users\ptudor.modetransport\Documents\Speed dating\speed-dating-scheduler-master>python scheduler.py ../Mastersched.csv > ../out.csv
+The process cannot access the file because it is being used by another process.
+
+C:\Users\ptudor.modetransport\Documents\Speed dating\speed-dating-scheduler-master>python scheduler.py ../Mastersched.csv > ../out.csv
+
+C:\Users\ptudor.modetransport\Documents\Speed dating\speed-dating-scheduler-master>python scheduler.py ../Mastersched.csv > ../out.csv
+
+C:\Users\ptudor.modetransport\Documents\Speed dating\speed-dating-scheduler-master>
+
